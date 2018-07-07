@@ -3,7 +3,9 @@ names.each_with_index {|name, index| puts "#{index+1}. #{name}"}
 end
 
 def summon_captain_planet(planeteer)
-
+planeteer.map do
+  |name|
+end
 end
 
 def long_planeteer_calls# code an argument here
