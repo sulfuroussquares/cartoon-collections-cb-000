@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planeteer)
   planeteerArray = []
-planeteer.map do
+planeteer.each do
   |name| planeteerArray << "#{name.capitalize}!"
 end
 end
@@ -16,4 +16,9 @@ end
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+end
+
+ary = [1,2,3,4,5]
+ary.each do |i|
+   puts i
 end
