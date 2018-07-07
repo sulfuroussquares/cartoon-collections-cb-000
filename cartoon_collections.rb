@@ -15,7 +15,3 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-a = [11,22,31,224,44].each.with_index { |val,index| puts "index: #{index} for #{val}" if val < 30}
-index: 0 for 11
-index: 1 for 22
-=> [11, 22, 31, 224, 44]
