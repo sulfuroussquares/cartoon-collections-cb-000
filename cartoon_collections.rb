@@ -17,4 +17,3 @@ end
 def find_the_cheese(cheeseArray)
 cheeseArray.select{|cheese| cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"}
 end
-
