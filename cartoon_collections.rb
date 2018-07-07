@@ -7,6 +7,7 @@ def summon_captain_planet(planeteer)
 planeteer.each do
   |name| planeteerArray << "#{name.capitalize}!"
 end
+planeteerArray
 end
 
 def long_planeteer_calls# code an argument here
