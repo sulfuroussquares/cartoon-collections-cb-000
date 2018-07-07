@@ -5,7 +5,7 @@ end
 def summon_captain_planet(planeteer)
   planeteerArray = []
 planeteer.map do
-  planeteerArray << |name|
+  |name| planeteerArray << name
 end
 end
 
