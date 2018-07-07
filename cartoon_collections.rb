@@ -18,7 +18,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-ary = [1,2,3,4,5]
-ary.each do |i|
-   puts i
-end
+
