@@ -15,5 +15,6 @@ words.any?{ |word| word.length > 4 }
 end
 
 def find_the_cheese(cheeseArray)
-cheeseArray.select{|cheese| cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"}
+returnArray = cheeseArray.select{|cheese| cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"}
+returnArray[0]
 end
