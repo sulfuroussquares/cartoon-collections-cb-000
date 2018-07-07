@@ -11,7 +11,7 @@ planeteerArray
 end
 
 def long_planeteer_calls(words)
-  words.select { |word| word.length > 4 }   
+words.any?{ |word| word.length > 4 } 
 end
 
 def find_the_cheese# code an argument here
